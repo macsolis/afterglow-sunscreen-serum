@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-auto-flow: column;  /* force one row */
+  grid-auto-columns: 250px; /* width of each box */
+  gap: 15px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+
